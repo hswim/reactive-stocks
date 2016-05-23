@@ -2,7 +2,7 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
-GET     /                           controllers.Application.index
+GET     /reactive                   controllers.Application.index
 GET     /ws                         controllers.Application.ws
 GET     /sentiment/:symbol          controllers.StockSentiment.get(symbol)
 
